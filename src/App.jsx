@@ -16,8 +16,8 @@ function App() {
       <Navbar
         variant={`${
           isDarkMode
-            ? "bg-red-500 backdrop-blur-[5px]"
-            : "bg-sky-500 backdrop-blur-[5px]"
+            ? "bg-slate-800/40 backdrop-blur-[5px]"
+            : "bg-slate-500 backdrop-blur-[5px]"
         } `}></Navbar>
 
       <AppRoutes />
