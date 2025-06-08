@@ -12,15 +12,13 @@ function App() {
     <div
       className={`min-h-screen transition-colors duration-700  ${
         isDarkMode ? "bg-slate-800 text-white" : "bg-slate-200"
-      }`}
-    >
+      }`}>
       <Navbar
         variant={`${
           isDarkMode
-            ? "bg-slate-800/40 backdrop-blur-[5px]"
+            ? "bg-red-500/40 backdrop-blur-[5px]"
             : "bg-slate-200/40 backdrop-blur-[5px]"
-        } `}
-      ></Navbar>
+        } `}></Navbar>
 
       <AppRoutes />
     </div>
