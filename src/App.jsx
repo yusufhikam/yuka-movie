@@ -16,7 +16,7 @@ function App() {
       <Navbar
         variant={`${
           isDarkMode
-            ? "bg-red-500/40 backdrop-blur-[5px]"
+            ? "bg-red-500 backdrop-blur-[5px]"
             : "bg-slate-200/40 backdrop-blur-[5px]"
         } `}></Navbar>
 
